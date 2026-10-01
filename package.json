@@ -1,0 +1,13 @@
+{
+  "name": "viviz-growthos",
+  "private": true,
+  "workspaces": ["apps/admin", "packages/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace=@growthos/admin",
+    "build": "npm run build --workspace=@growthos/admin",
+    "lint": "npm run lint --workspace=@growthos/admin",
+    "typecheck": "npm run typecheck --workspace=@growthos/admin",
+    "test": "npm run test --workspace=@growthos/admin"
+  }
+}
+

@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+node_modules/
+.next/
+coverage/
+dist/
+*.log
+*.db
+*.tsbuildinfo
+ChatGPT - AI Website Implementations_files/
+*.css
+*.download
+vt.png
